@@ -1,0 +1,6 @@
+https://www.kaggle.com/yash612/stockmarket-sentiment-dataset
+
+Keterangan
+Mengumpulkan berita Saham dari Beberapa twitter Menangani tentang berita Ekonomi dibagi menjadi dua bagian: Negatif(-1) dan positif(1) .
+Hitungan negatif: 2.106
+Jumlah positif: 3.685

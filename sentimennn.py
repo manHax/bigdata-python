@@ -23,7 +23,7 @@ klasifikasiModel.fit(X_train, y_train)
 
 y_pred = klasifikasiModel.predict(X_test)
 
-text = input("masukkan text dalam bahasa inggris: ")
+text = input("masukkan text berita saham dari twitter dalam bahasa inggris: ")
 output = tfidf.transform([text])
 klasifikasiModel.predict(output)
 if klasifikasiModel.predict(output) == 1:
