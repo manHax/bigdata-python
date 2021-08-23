@@ -65,16 +65,13 @@ if __name__ == "__main__" :
     # create a label : Enter Your Task
     enterText = Label(gui, text = "Masukkan kalimat dalam bahasa inggris",
                                      bg = "light green")
-    #enterText2 = Label(gui, text = "Keakuratan deteksi: ",bg = "light green")
- 
+    
     # create a text area for the root
     # with lunida 13 font
     # text area is for writing the content
     textArea = Text(gui, height = 10, width = 97, font = "lucida 13")
  
-    # create a Submit Button and place into the root window
-    # when user press the button, the command or 
-    # function affiliated to that button is executed 
+    # create a Submit Button and place into the root window 
     check = Button(gui, text = "Check Sentiment", fg = "Black",
                          bg = "white", activebackground="red", command = detect_sentiment)
  
@@ -84,15 +81,11 @@ if __name__ == "__main__" :
     # create a text entry box 
     overallField = Entry(gui, state='disabled')
  
-    # create a Clear Button and place into the root window
-    # when user press the button, the command or 
-    # function affiliated to that button is executed .
     clear = Button(gui, text = "Clear", fg = "Black",
                       bg = "Red", command = clearAll)
      
 
     enterText.grid(row = 0, column = 2)
-    #enterText2.grid(row = 1, column = 2)
      
     textArea.grid(row = 2, column = 2, padx = 10, sticky = W)
      
